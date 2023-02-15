@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header"><h1>Odin's Calculator</h1></div>
+    <div class="calculator">
+        <div class = "screen">
+            <div class="screen_first" id="lastOperationScreen"></div>
+            <div class="screen_second" id="currentOperationScreen">0</div>
+        </div>
+        <div class = "NUMheader">
+            <button class = "delete " onclick="this.blur();" > DELETE </button>
+            <button class = "clear " onclick="this.blur();" > CLEAR </button>
+        </div>
+        <div class = "numerical-pad" id="pad">
+                <button class="number" value="7">7</button>
+                <button class="number">8</button>
+                <button class="number">9</button>
+                <button class="operator">÷</button>
+                <button class="number">4</button>
+                <button class="number">5</button>
+                <button class="number">6</button>
+                <button class="operator">×</button>         
+                <button class="number">1</button>
+                <button class="number">2</button>
+                <button class="number">3</button>
+                <button class="operator">−</button> 
+                <button class="comma">.</button>
+                <button class="number">0</button>
+                <button class="equal">=</button>
+                <button class="operator">+</button>          
+        </div>
+    </div>
+    <div class="footer"><p>Copyright © 2023 HERAOUI CHAKIB x THE Odin Project</p></div>
+    <script src="script.js"></script>
+</body>
+</html>
